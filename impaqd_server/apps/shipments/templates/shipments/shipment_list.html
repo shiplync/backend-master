@@ -1,0 +1,18 @@
+<!doctype HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <h1>this is the shipment list page</h1>
+  <ul>
+  {% for shipment in shipment_list %}
+    <li><a href="{% url 'shipment_detail' shipment.id %}">{{ shipment }}</a></li>
+  {% empty %}
+    <li>Nothing to see here</li>
+  {% endfor %}
+  </ul>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "shipper" : {
+	"email" : "test.shipper@example.com",
+	"user" : {
+	    "username" : "test.shipper@example.com",
+	    "password" : "testtest"
+	},
+	"phone" : "1234567834",
+	"name" : "Shipper Competitor",
+	"company" : "Shipper Competitor Co.",
+	"verified" : true
+    },
+    "carrier" : {
+	"email" : "test.carrier@example.com",
+	"user" : {
+	    "username" : "test.carrier@example.com",
+	    "password" : "testtest"
+	},
+	"phone" : "1234567834",
+	"mcdot" : "1234567",
+	"first_name" : "Carrier",
+	"last_name" : "Competitor",
+	"photo_file" : "../scripts/test-carrier-pic.png",
+	"platform" : 3,
+	"vehicle_type" : 1
+    }
+}

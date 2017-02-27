@@ -1,0 +1,14 @@
+# import the base requirements
+-r ./common.txt
+
+Werkzeug==0.9.4
+Markdown==2.3.1
+ipython==1.1.0
+six==1.5.2
+django-debug-toolbar==1.4
+factory-boy==2.5.2
+fake-factory==0.5.0
+mock==1.0.1
+coverage==3.7.1
+unittest-xml-reporting==1.12.0
+django-test-without-migrations==0.2

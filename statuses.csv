@@ -1,0 +1,11 @@
+# Custom responses
+1001|No shipment found|Sorry, no shipments could be found
+
+# Fallback HTTP status responses
+200|Success|
+201|Success|
+400|Bad request|Sorry, we are not able to process your request at this time. 
+401|Not authorized|Sorry, you are not authorized to perform this action. 
+404|Not found|Sorry, we couldn't find what you were looking for.
+500|Oops! Something went wrong!|Our technical staff have been automatically notified and will be looking into this with the utmost urgency.
+

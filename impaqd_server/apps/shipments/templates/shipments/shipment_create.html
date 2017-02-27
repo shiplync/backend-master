@@ -1,0 +1,22 @@
+{% load crispy_forms_tags %}
+<!doctype HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Impaqd</title>
+</head>
+<body>
+  {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+    <li {% if message.tags %} class="{{messages.tags}}"{% endif %}>{{message}}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+  <h1>this is the shipment create page</h1>
+  <!-- <form class="createShipmentForm"> -->
+    {% crispy form %}
+    <!-- <input type='submit'> -->
+  <!-- </form> -->
+</body>
+</html>
